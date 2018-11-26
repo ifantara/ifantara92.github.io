@@ -1,0 +1,367 @@
+html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI' ;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0px;
+}
+
+ul {
+    margin: 0px;
+    padding: 10px;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+p img {
+    width: 24px;
+}
+
+section {
+    width: 100%;
+    position: relative;
+    min-height: 300px;
+}
+
+.btn {
+    text-decoration: none;
+    color: inherit;
+    box-sizing: border-box;
+    padding: 12px 15px;
+    border-radius: 10px;
+    text-shadow: 1px 1px 10px #000;
+    margin: 12px;
+}
+
+.card {
+    box-sizing: border-box;
+    height: 300px;
+    box-shadow: 1px 1px 10px #475F77;
+    border-radius: 10px;
+    padding: 10px 12px;
+    overflow: hidden;/*https://www.dumetschool.com/blog/mengenal-lebih-jauh-property-overflow-pada-css*/
+    background-color: #fff;
+
+}
+
+.card img {
+    height: auto;
+    width: 40px;
+}
+
+.container-navbar {
+    box-sizing: border-box;
+    font-family: 'gotham bold';
+    padding: 20px;
+    width: 100%;
+    height: auto;
+}
+
+.container {
+    padding: 12px 10%;
+    min-height: inherit;
+    box-sizing: border-box;
+    position: inherit;
+    overflow: hidden;
+}
+
+
+.col p {
+    box-sizing: border-box;
+}
+
+.color-blue {
+    color: #475F77;
+}
+
+
+
+
+
+.jumbotron {
+    width: 100%;
+    height: 650px;
+    background-size: cover;
+    background-blend-mode: darken;
+    background-position: center;
+    background-image: url(image/ombak.jpg)
+}
+
+
+
+.left{
+    float: left;/*agar content beralih mepet ke pinggir kiri*/
+}
+
+.title {
+    margin: 0px;
+    font-size: 35px;
+    text-decoration: none;
+    text-shadow: 1px 1px 10px #000;
+}
+
+.navbar {
+    
+    height: auto px;
+    width: 100%; 
+    color: #fff;
+       overflow: hidden;
+    display: inline-block; /*agar tampilan class navbar menjadi sebaris perblok*/
+}
+
+
+
+.paragraph {
+    text-align: justify;/*mengatur paragraph menjadi justify*/
+    width: 100%;
+    font-size: 20px
+}
+
+
+.logo {
+    box-sizing: border-box;
+    height: 100%;
+    width: 25%;
+    overflow: hidden;
+    float: left;
+}
+
+
+
+.text ul li {
+    list-style: none;/*liststyle ini merupakan style dari ul atau li*/
+    display: inherit;
+    margin-left: 5px;
+}
+
+
+.navbar-brand {
+    box-sizing: border-box;
+    top: 20px;
+    float: left;
+    margin-right: 20%;
+
+}
+
+.navbar-brand img {
+    width: 100px;
+
+}
+
+
+
+#papuma .card {
+    height: auto;
+}
+
+.blue{
+    background-color: #475F77;
+}
+
+.red {
+    background-color: #D74B4B;
+}
+
+.row {
+    box-sizing: border-box;
+    width: auto;
+    line-height: normal;
+}
+
+.footer {
+    height: 400px;
+    background-color:#475F77; 
+    color: #fff;
+}
+
+.footer .card {
+    background-color: transparent;
+}
+
+.footer .span_1_of_3{
+    margin-left: 0;
+}
+
+.footer img {
+    border-radius: 100px;
+}
+
+#sugesstion .card{
+    box-sizing: border-box; /*untuk membatasi agar kontent tidak melebihi batas dari wadahnya*/
+    width: 50%;
+    height: auto;
+    margin:0px auto;
+    padding: 20px;
+
+}
+
+.form-control {
+    box-sizing: border-box;
+    font-size: 24px;
+    
+}
+
+textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 2px solid #475F77;
+    box-shadow: 1px 1px 5px #475F77;/*Memberi shadow pada box*/
+    padding: 12px;
+}
+
+input {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px 20px;
+    font-size: 20px;
+    margin-bottom: 12px;
+    border-radius: 10px;
+    border: 2px solid #475F77;
+    box-shadow: 1px 1px 5px #475F77;
+}
+#JFC #yl {
+    margin-top: 300px;
+}
+
+#yl .span_1_of_2 {
+    margin-left: 26.125%;}
+.panel {
+    box-sizing: border-box;
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+    position: absolute;
+    top: -100px;/*memindahkan content kearah top sebanyak -100px*/
+    padding-bottom: 100px;
+}
+.navbar-panel ul {
+
+    text-align: right;
+    box-sizing: border-box;
+    display: inline-block;
+
+}
+
+.navbar-panel ul li {
+    list-style: none;
+    display: inherit;/*inherit yaitu dari elementnya sama seperti class parentalnya*/
+    margin-left: 5px;
+
+}
+
+.photo-title {
+    box-sizing: border-box;
+    background-position: bottom;
+    background-size: cover;/*cover yang nantinya gambar akan menutupi seluruh wadahnya*/
+    height: 300px;
+    
+}
+
+.right {
+    text-align: right;
+}
+
+#destinasi h5 {
+    font-size: 30px;
+}
+
+#destinasi .card, #yl .card {
+    height: auto;
+}
+
+.blue-btn:hover,/*hover ini akan memberikan elemen tertentu saat class disorot oleh pointer*/
+.blue-btn:focus {
+    background-color: #1de3f5;
+    text-shadow: 0px 0px 0px;
+    color: #475F77;
+}
+
+#circle-home {
+    width: 250px;
+    height: 250px;
+    border-radius: 200px;;
+    position: absolute;
+    bottom: -125px;
+    margin-left: 40%;
+    
+}
+
+.center {
+    text-align: center;
+}
+
+.isi {
+    padding: 10px 12px;
+}
+.circle-frame {
+    box-sizing: border-box;
+    width: 100px;
+    height: 100px;
+    box-shadow: 1px 1px 1px #000;
+    position: relative;
+    border-radius: 50px;
+    padding: 12px;
+    border: 5px solid #D74B4B;
+    margin: 0px auto;
+}
+
+.circle-frame img{
+    margin: auto auto;
+}
+
+/*  COLUMN SETUP  */
+.col {
+	display: block;
+	float:left;
+	margin: 2.5% 0 2.5% 5%;
+}
+.col:first-child {
+    margin-left: 0;
+}
+
+#jember {
+    padding-top: 200px;
+}
+
+/*  GRID OF THREE  */
+.span_3_of_3 { width: 100%; }
+.span_2_of_3 { width: 65%; }
+.span_1_of_3 { width: 30%; }
+.span_1_of_2 { width: 47.5%;}
+.span_1_of_1 {width: 100%;}
+
+/*  GO FULL WIDTH BELOW 480 PIXELS */
+@media only screen and (max-width: 720px) {
+	.col {  margin: 1% 0 1% 0%; }
+	.span_3_of_3, .span_2_of_3, .span_1_of_3, .span_1_of_2 { width: 100%; }
+}
+
+.circle-frame img {
+    width: 60px;
+
+}
+
+.normal {
+    text-shadow: none;
+    text-decoration: none;
+    list-style: none;
+}
+.footer img {
+    box-sizing: border-box;
+    width: 100%
+}
+.table1{
+    margin-top: 120px;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html id="sugesstion" lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <!--CLASS NAVBAR-->
+    <div class="navbar blue">
+        <div class="container-navbar">
+            <div class="navbar-brand">
+                <h4 class="title normal">PARIWISATA JEMBER</h4>
+            </div>
+            <div class="navbar-panel">
+                <div class="">
+                     <ul>
+                        <li>
+                            <a href="index.html" class="btn blue-btn">
+                                HOME
+                            </a>
+                        </li>
+                        <li>
+                            <a href="suggestion.html" class="btn blue-btn">SUGESSTION</a><!--membuat tombol -->
+                        </li>
+                        <li>
+                            <a href="" class="btn blue-btn">About me</a>
+                        </li>
+                        <li>
+                            <a href="" class="btn blue-btn">Story Board</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--CLASS SECTION-->
+    <section class="jumbotron">
+        <div class="container">
+            <div class="card">
+                <div class="row">
+                    <form id="biodata" action="">
+                        <div class="form-control">
+                            <label for="nama">Nama</label>
+                            <input type="text" placeholder="Masukkan Nama" name="nama" >
+                            <label for="email">E-mail</label>
+                            <input type="email" placeholder="Masukkan Email" name="email">
+                            <textarea name="saran" cols="100%" rows="10" placeholder="Kritik dan Saran"></textarea>
+                           <input type="button" onclick="terimainput()" value="masukkan"> <input type="Reset" value="ulangi">
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+      <center> <table border="1" id="tabel1">
+        <tr>
+
+            <td>Nama </td>
+            <td>email</td>
+            <td>saran</td>
+        
+        </tr>
+    </table>  </center>
+
+<script src="coding.js"></script>
+
+</body>
+
+</html>
